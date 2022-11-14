@@ -19,4 +19,4 @@ un curso practico de SASS
 ------------
 
 ## Enamorado de SASS  
-:tw-1f44c: :tw-1f44c: :tw-1f44c: :tw-1f497:
+
