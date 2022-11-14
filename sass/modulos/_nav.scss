@@ -1,0 +1,27 @@
+@import "colors";
+nav{
+    
+    background-color: $primary_color;
+    width: 100%;
+    
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    li{
+        
+        a{
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+
+
+        }
+    }
+}

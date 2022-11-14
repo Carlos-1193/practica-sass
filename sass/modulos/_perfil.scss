@@ -1,0 +1,29 @@
+@mixin perfil($width:100%, $height:200px) {
+    width: $width;
+    height: $height;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container__perfil{
+
+    @include perfil(100%,150px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+
+    h3{
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        text-align: justify;
+        text-justify: inter-word;
+        margin: 5px;
+    }
+
+}
